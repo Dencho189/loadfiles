@@ -1,0 +1,52 @@
+#form_load{
+    border: 1px solid black;
+    width: 400px;
+    margin: 50px auto;
+}
+.mask-wrapper {
+    height: auto;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 10px 25px 10px 5px;
+}
+.mask-wrapper .mask{
+    position: relative;
+    float: right;
+    margin: -3px 5px 0 ;
+}
+.mask-wrapper .add_file {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 105px;
+}
+.mask-wrapper .custom-file-input {
+    width: 105px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.hovered {
+    background: #9cf837;
+}
+
+.mask-wrapper  #load-file{
+    margin-top: 10px;
+}
+.error{
+    color: red;
+    padding-left:10px;
+    margin-bottom: -10px;
+    display: none;
+}
+#load{
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left
+}

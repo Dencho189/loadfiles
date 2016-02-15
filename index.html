@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <title>Load Files</title>
+    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div class="container">
+        <div class="load">
+            <form action='' id="form_load" method="post" enctype="multipart/form-data">
+
+                <div class=error></div>
+
+                <div class="mask-wrapper">
+                    <label for="my_file">Додати зображення або файл</label>
+
+                    <div class="mask">
+                        <div id="load"></div>
+                        <input id="my_file" class="custom-file-input" type="file" name="my_file[]" multiple>
+                        <button class="add_file">Прикріпити</button>
+                    </div>
+
+                    <div id="load-file"></div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
